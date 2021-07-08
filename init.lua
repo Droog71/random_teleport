@@ -40,6 +40,7 @@ minetest.register_chatcommand("rtp", {
                 if y > 500 then
                     player:setpos(old_pos)
                     failed = true
+                    break
                 end
         
             end
