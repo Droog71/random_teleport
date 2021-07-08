@@ -1,6 +1,6 @@
 --[[
     Minetest Random Teleport Mod
-    Version: 1.0.1
+    Version: 1.0.2
     License: GNU Affero General Public License version 3 (AGPLv3)
 ]]--
 
@@ -25,7 +25,7 @@ minetest.register_chatcommand("rtp", {
 
         if teleporting == false then
             table.insert(players, name) -- Insert the player's name into the cooldown timer table.
-	        local player = minetest.get_player_by_name(name) -- The player who entered the command.
+            local player = minetest.get_player_by_name(name) -- The player who entered the command.
             local old_pos = player:getpos() -- The current position of the player.
             
             -- Create a random position.
