@@ -1,5 +1,4 @@
-# random_teleport
-Random Teleportation Mod for Minetest
+# Random Teleport (/rtp)
 
 Installation: Put the init.lua file in a folder inside the .minetest/mods directory such as ./minetest/mods/random_teleport
 
