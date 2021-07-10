@@ -1,0 +1,1 @@
+Allows players to teleport to a random location using the /rtp command.
